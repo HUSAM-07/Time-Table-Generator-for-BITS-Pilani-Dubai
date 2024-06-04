@@ -1,4 +1,11 @@
 import json
+import json
+
+def load_data(file_path):
+    with open(file_path) as file:
+        data = json.load(file)
+    return data
+
 
 class Class:
 

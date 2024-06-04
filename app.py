@@ -12,10 +12,14 @@ from costs import (
     hard_constraints_cost,
     check_hard_constraints
 )
+from data import load_data
+
 from scheduler import Scheduler
 
-# Initialize the scheduler and data
-data = Data()
+# Load data
+data = load_data('data.json')
+
+# Initialize Scheduler
 scheduler = Scheduler(data)
 
 # Streamlit app
