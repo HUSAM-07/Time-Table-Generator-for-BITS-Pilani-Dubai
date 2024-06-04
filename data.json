@@ -1,0 +1,25 @@
+{
+    "Casovi": [
+      {
+        "Grupe": ["Group1", "Group2"],
+        "Nastavnik": "Teacher1",
+        "Predmet": "Subject1",
+        "Tip": "Lecture",
+        "Trajanje": 1,
+        "Ucionica": "Classroom1"
+      },
+      {
+        "Grupe": ["Group3"],
+        "Nastavnik": "Teacher2",
+        "Predmet": "Subject2",
+        "Tip": "Practical",
+        "Trajanje": 2,
+        "Ucionica": "Classroom2"
+      }
+    ],
+    "Ucionice": {
+      "Lecture": ["Classroom1", "Classroom3"],
+      "Practical": ["Classroom2"]
+    }
+  }
+  
